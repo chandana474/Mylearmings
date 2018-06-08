@@ -11,6 +11,8 @@ public class Sampletest {
 	{
 		
 		System.out.println("hello");
+		
+		System.out.println("Testing");
 	}
 
 }
