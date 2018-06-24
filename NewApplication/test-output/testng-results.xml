@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11707" started-at="2018-06-14T19:54:24Z" finished-at="2018-06-14T19:54:36Z">
+  <suite name="Default suite" duration-ms="29997" started-at="2018-06-23T18:31:46Z" finished-at="2018-06-23T18:32:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11707" started-at="2018-06-14T19:54:24Z" finished-at="2018-06-14T19:54:36Z">
+    <test name="Default test" duration-ms="29997" started-at="2018-06-23T18:31:46Z" finished-at="2018-06-23T18:32:16Z">
       <class name="SeleniumLearnings.NewApplication.firsttest">
-        <test-method status="PASS" signature="login()[pri:0, instance:SeleniumLearnings.NewApplication.firsttest@3a82f6ef]" name="login" duration-ms="11694" started-at="2018-06-14T15:54:24Z" finished-at="2018-06-14T15:54:36Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:SeleniumLearnings.NewApplication.firsttest@68be2bc2]" name="login" duration-ms="15354" started-at="2018-06-23T11:31:47Z" data-provider="getData" finished-at="2018-06-23T11:32:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chandanag29@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amex@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:SeleniumLearnings.NewApplication.firsttest@68be2bc2]" name="login" duration-ms="14030" started-at="2018-06-23T11:32:02Z" data-provider="getData" finished-at="2018-06-23T11:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

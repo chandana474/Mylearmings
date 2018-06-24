@@ -37,13 +37,9 @@ public class firsttest extends BaseClass {
 	
 	public Object[][] getData()
 	{
-		Object[][] data = new Object[1][1];
-		data[0][0] = "chandanag29@gmail.com";
-		data[0][1] = "5512207712";
-		data[1][0] = "chandanageddam1@gmail.com";
-		data[1][1] = "abcd";
-		
-		return data;
+		ReadingExcelData Rb= new ReadingExcelData();
+		Object[][] arrayObject = Rb.getExcelData("C:\\Users\\chand\\git\\Mylearmings\\NewApplication\\TestData.xlsx", "sheet1", 3, 2);
+		return arrayObject;
 		
 				
 		

@@ -22,7 +22,7 @@ public class BaseClass  {
 	{
 		
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\MSN\\git\\Mylearmings\\NewApplication\\src\\main\\java\\SeleniumLearnings\\NewApplication\\Data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\chand\\git\\Mylearmings\\NewApplication\\src\\main\\java\\SeleniumLearnings\\NewApplication\\Data.properties");
 		prop.load(fis);
 		
 		
@@ -33,7 +33,7 @@ public class BaseClass  {
 		if(browsername.equals("chrome"))
 		{
 		
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\MSN\\git\\Mylearmings\\NewApplication\\Selenium\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\chand\\git\\Mylearmings\\NewApplication\\chromedriver_win32\\chromedriver.exe");
 		
 			 driver=new ChromeDriver();
 		}
@@ -58,7 +58,7 @@ public class BaseClass  {
 		
 		
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\MSN\\git\\Mylearmings\\NewApplication\\src\\main\\java\\SeleniumLearnings\\NewApplication\\Data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\chand\\git\\Mylearmings\\NewApplication\\src\\main\\java\\SeleniumLearnings\\NewApplication\\Data.properties");
 		prop.load(fis);
 		
 		
